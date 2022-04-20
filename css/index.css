@@ -1,0 +1,90 @@
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #fffffc;
+}
+.uno {
+    width: 100%;
+    height: 300px;
+    background: #8d99ae;
+}
+.uno .contenido {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+.uno .contenido .p1 {
+    font-weight: bolder;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.uno .contenido .p2 {
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 10px;
+}
+.uno .contenido .p3 {
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 0;
+}
+.uno .img {
+    position:absolute;
+    top: 3%;
+    right: 78%;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.uno .img img {
+    width: 280px;
+    height: 280px;
+}
+.uno .contacto{
+    padding-top:  10px;
+    padding-right: 15px;
+}
+.uno .contacto .item{
+    padding-right: 20px;
+}
+.uno .contacto .item .correo{
+    top: 300px;
+    margin-left: 86%;
+   
+}
+.informacion{
+    display: flex;
+}
+.informacion .columna-izq{
+    flex: 30%;
+    background: #bcb8b1 ;
+}
+.informacion .columna-izq .personal{
+    margin-top: 0%;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-bottom: 2px black solid;
+    text-align: center;
+}
+.informacion .columna-izq .habilidades{
+    margin-top: 0%;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-bottom: 2px black solid;
+    text-align: center;
+}
+.informacion .columna-der{
+    flex: 70%;
+}
+.informacion .columna-der .exp{
+    margin-top: 0%;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-bottom: 2px black solid;
+    text-align: center;
+}
